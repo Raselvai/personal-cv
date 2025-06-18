@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  background: #163a5b;
+}
+
+.wrapper {
+	padding: 80px 20px;
+}
+
+.wrapper .cv_box {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 3px 16px #ffffff;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.wrapper .cv_box .man_img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 4px solid red;
+}
+
+.wrapper .cv_box h2 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.wrapper .cv_box h3 {
+	font-size: 20;
+	font-weight: 500;
+}
+
+.wrapper .cv_box ul {
+    list-style: none;
+}
+
+.wrapper .cv_box ul li {
+	display: inline-block;
+}
+
+.wrapper .cv_box ul li a {
+	background: #163a5b;
+	width: 35px;
+	height: 35px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #ffffff;
+	margin: 20px 5px 20px 5px;
+	transition: 0.4s all ease-in-out;
+}
+
+.wrapper .cv_box ul li a:hover {
+	opacity: 0.7;
+}
+
+.wrapper .cv_box .hire_btn {
+	height: 45px;
+	padding: 0 25px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: #e71866;
+	border-radius: 4px;
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 20px;
+	transition: 0.4s all ease-in-out;
+}
+
+.wrapper .cv_box .hire_btn:hover {
+	opacity: 0.7;
+}
